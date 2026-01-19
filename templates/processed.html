@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Request Processed</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f5f9;
+        }
+
+        header {
+            background-color: #2563eb;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: green;
+        }
+
+        .stage {
+            text-align: center;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        a {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #2563eb;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    Secure & Ethical Support Processing Pipeline
+</header>
+
+<div class="container">
+    <h2>Request Processed Successfully</h2>
+
+    <div class="stage">
+        Stage 3: Secure Processing & Output
+    </div>
+
+    <p><b>Request ID:</b> {{ request_id }}</p>
+    <p><b>Name:</b> {{ name }}</p>
+    <p><b>Email:</b> {{ email }}</p>
+    <p><b>Issue:</b> {{ issue }}</p>
+
+    <p>All sensitive details are masked for privacy.</p>
+
+    <a href="/">Back to Home</a>
+</div>
+
+</body>
+</html>
